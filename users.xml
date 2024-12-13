@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+    <user>
+        <id>2</id>
+        <full_name>users</full_name>
+        <username>users@gmail.com</username>
+        <password>$2y$10$MlC96S45nPax7BbAttAQDuKuCvFGc2OeiaRG5fEMeJH3OG97NgNKu</password>
+    <profile_image>uploads/th.jpg</profile_image></user>
+<user>
+    <id>6</id>
+    <full_name>mariella</full_name>
+    <username>mariellavilleros@gmail.com</username>
+    <password>$2y$10$ffjWa.9ZKvobrhaXNfIltu0yEGBzqdrymc4N23Oie8a0zfseXy0.K</password>
+    </user>
+<user><id>7</id><full_name>gina</full_name><username>ginavijano@yahoo.com</username><password>$2y$10$iKF3WiI30BDcIZ05txxVA.Xwv84WAOYaGH77fbnlvZb7rkAZWerjO</password></user><user><id>8</id><full_name>jemina</full_name><username>jeminaonte@yahoo.com</username><password>$2y$10$uix9fsq/mNOu8oxIbzwIzenQ36x0kTcReyjxcbhD3SZ4FkyJ4o79q</password><profile_image>uploads/jemina.jpg</profile_image></user>
+<user>
+    <id>9</id>
+    <full_name>leica</full_name>
+    <username>leicadacao@yahoo.com</username>
+    <password>$2y$10$p05WPpuW3fCmqvNt8ZiT.O9AamxcBpBJ3AC24AaYrrTHTccWgckUi</password>
+    <profile_image>uploads/leica.jpg</profile_image></user>
+</users>

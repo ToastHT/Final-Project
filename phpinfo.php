@@ -1,0 +1,2 @@
+<!-- Aldrich Mira -->
+<?php phpinfo(); ?>

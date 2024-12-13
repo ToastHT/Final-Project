@@ -1,0 +1,85 @@
+<!-- Aldrich Mira -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barangay Darasa Scholarship</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            flex-direction: column;
+            text-align: center;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('BG.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+        }
+
+        .login-img {
+            max-width: 100px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .login-img:hover {
+            transform: scale(1.05);
+        }
+
+        .login-text {
+            margin-top: 10px;
+            font-size: 18px;
+            color: darkturquoise;
+            font-weight: bold;
+        }
+
+
+        @media (max-width: 768px) {
+            .login-img {
+                max-width: 80px; 
+                margin-top: 150px;
+            }
+
+            .login-text {
+                font-size: 16px;
+                margin-top: 20px;
+            }
+        }
+
+
+        @media (max-width: 480px) {
+            body {
+                background-size: cover; 
+                padding: 20px;
+            }
+
+            .login-img {
+                max-width: 70px; 
+                margin-top: 120px;
+            }
+
+            .login-text {
+                font-size: 14px; 
+                margin-top: 10px;
+                line-height: 1.4;
+            }
+        }
+    </style>
+</head>
+<body>
+    <img 
+        src="img/g.webp" 
+        alt="Login to Scholarship Portal" 
+        class="login-img" 
+        onclick="window.location.href='login.php'">
+    <p class="login-text">Click and you will go to SCHOLARSHIP MANAGEMENT SYSTEM</p>
+</body>
+</html>
